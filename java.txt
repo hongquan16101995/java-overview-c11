@@ -1,0 +1,56 @@
+- JVM - máy ảo Java: Java Vitural Machine hỗ trợ biên dịch code Java thành bytecode, sau đó chuyển thành ngôn ngữ máy để thực thi
+	- Máy tính thì chỉ hiểu 2 số 0 và 1
+- JRE - môi trường thực thi Java: Java Runtime Enviromnent hỗ trợ việc thực thi mã java đã bytecode
+- JDK - Java Development Kit bao gồm 2 thành phần ở trên, tiện dụng cho phát triển chương trình Java
+
+
+- JS
+	- number
+	- string: chuỗi và ký tự   "" và ''
+	- boolean
+	- undefined
+	- null
+	- Symbol
+	- Object
+- Java
+	- Kiểu nguyên thủy
+		- char: ký tự   ''
+		- boolean: true/false
+		- byte: 8bit
+		- short: 16bit
+		- int: 32bit, số nguyên
+		- long: 64bit. số nguyên
+		- float: 32bit, số thập phân
+		- double: 65bit, số thập phân
+	- Kiểu object
+		- String: ""
+	Vd:
+		'a' => kiểu ký tự
+		"a" => kiểu String
+		'abc' => lỗi
+		"abc" => kiểu String
+
+- Cú pháp khai báo biến:
+	- let/var/const <name_variable> = <value_variable>
+	Java:
+		<data_type> <name_variable> = <value_variable>;
+		=> không sử dụng từ khóa khai báo, thay thế nó bằng kiểu dữ liệu của biến
+		=> biến sẽ cố định kiểu dữ liệu khi khai báo, giá trị của biến chỉ được phép chứa các giá trị giống vs kiểu dữ liệu
+	Vd: int a = 10;
+		a = "abc" => lỗi
+		a = 100;
+	Js: let a = 10
+		a = "abc"
+
+- Dự án - project : thư mục lưu trữ source code của dự án
+- Package - gói : các thư mục phân nhánh nhỏ để chứa code, gom nhóm các lớp có chung hoặc gần giống về mặt tính năng thành 1 nhóm
+- Import - truyền : từ khóa dùng để truyền các thư viện có sẵn trong Java cho dự án 
+- Class - lớp nơi chứa các cấu trúc code của ltv
+
+
+
+
+
+
+
+
